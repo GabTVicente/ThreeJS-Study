@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 {
   "name": "my-port",
   "private": true,
@@ -16,7 +16,7 @@
     "gsap": "^3.10.4"
   }
 }
-
+=======
 {
   "name": "my-port",
   "private": true,
