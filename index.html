@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <link rel="stylesheet" href="/my-port/styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
     <style>
@@ -13,7 +16,17 @@
     </style>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div id="container" class="antialiased absolute text-white text-center" style="top: 50%; transform: translate(-50%, -50%); left: 50%;">
+        <h1 class="font-space-mono text-sm uppercase tracking-wide mb-5 ">Gabriel T Vicente</h1>
+        <p class="font-exo text-4xl mb-20">Estudos para THREEJS e JS em geral! Agora só não sei se vai pegar a quebra de linha.
+
+        To testando agora
+        </p> 
+        <a href="https://github.com/GabTVicente" class="mb-5 border px-4 py-2 rounded-lg text-sm font-space-mono uppercase hover:bg-white hover:text-gray-800 transition duration-500 ease-in-out">Ir para GIT</a>
+      </div>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
