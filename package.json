@@ -1,3 +1,4 @@
+
 {
   "name": "my-port",
   "private": true,
@@ -15,3 +16,21 @@
     "gsap": "^3.10.4"
   }
 }
+
+{
+  "name": "my-port",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.9.5"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9"
+  }
+}
+>>>>>>> f68f12b04a96afd750f0a8d8cba0c653c89067a6
